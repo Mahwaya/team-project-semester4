@@ -1,0 +1,241 @@
+movieId,title,avg_rating,review,token_count_raw,clean_review,token_count_clean
+356,Forrest Gump (1994),4.164133738601824,Tom Hanks delivers one of the most heartwarming performances I've ever seen. This movie made me laugh and cry within minutes of each other.,24,tom hanks delivers heartwarming performances ever laugh cry within minutes,10
+356,Forrest Gump (1994),4.164133738601824,Absolutely beautiful film. The way it weaves through American history is just magical.,13,absolutely beautiful weaves american history magical,6
+356,Forrest Gump (1994),4.164133738601824,I've watched this movie at least ten times and it never gets old. 'Life is like a box of chocolates' is genuinely profound.,23,least ten times gets old life box chocolates genuinely profound,10
+356,Forrest Gump (1994),4.164133738601824,"Honestly overrated. It's sentimental to the point of being manipulative, and the politics are weirdly conservative.",16,honestly overrated sentimental point manipulative politics weirdly conservative,8
+356,Forrest Gump (1994),4.164133738601824,A touching story but I found the pace too slow in the middle sections. Still enjoyable overall.,17,touching story found pace slow middle sections enjoyable overall,9
+356,Forrest Gump (1994),4.164133738601824,"One of the greatest films ever made. Simple, profound, and endlessly rewatchable.",12,greatest films ever simple profound endlessly rewatchable,7
+356,Forrest Gump (1994),4.164133738601824,Sappy and saccharine. Everyone loves this movie and I just don't understand why.,13,sappy saccharine everyone loves understand,5
+356,Forrest Gump (1994),4.164133738601824,Visually stunning for its era and emotionally affecting. A masterpiece of popular cinema.,13,visually stunning era emotionally affecting masterpiece popular cinema,8
+318,"Shawshank Redemption, The (1994)",4.429022082018927,"The greatest movie ever made, period. The story of hope and friendship is timeless.",14,greatest ever period story hope friendship timeless,7
+318,"Shawshank Redemption, The (1994)",4.429022082018927,Morgan Freeman's narration alone is worth watching the film for. Absolutely phenomenal.,12,morgan freeman narration alone worth absolutely phenomenal,7
+318,"Shawshank Redemption, The (1994)",4.429022082018927,I went in skeptical of the hype and came out completely converted. This movie earns every single star.,18,went skeptical hype came completely converted earns single star,9
+318,"Shawshank Redemption, The (1994)",4.429022082018927,"A bit slow for modern tastes, but the payoff is incredible. Essential cinema.",13,slow modern tastes payoff incredible essential cinema,7
+318,"Shawshank Redemption, The (1994)",4.429022082018927,Overlong but ultimately moving. The prison setting gives it a gritty authenticity.,12,overlong ultimately moving prison setting gives gritty authenticity,8
+318,"Shawshank Redemption, The (1994)",4.429022082018927,I've rarely been so emotionally destroyed by a film in such a good way. A true masterwork.,17,rarely emotionally destroyed good true masterwork,6
+318,"Shawshank Redemption, The (1994)",4.429022082018927,Not as great as people say. It's a good movie but not deserving of its legendary status.,17,great people good deserving legendary status,6
+318,"Shawshank Redemption, The (1994)",4.429022082018927,"Beautiful, haunting, and deeply human. Every performance is pitch-perfect.",9,beautiful haunting deeply human performance pitch perfect,7
+296,Pulp Fiction (1994),4.197068403908795,Tarantino at his absolute best. Non-linear storytelling done perfectly.,9,tarantino absolute best non linear storytelling done perfectly,8
+296,Pulp Fiction (1994),4.197068403908795,The dialogue is so sharp it feels like poetry. A genuine landmark of cinema.,14,dialogue sharp feels poetry genuine landmark cinema,7
+296,Pulp Fiction (1994),4.197068403908795,"Violent, shocking, and utterly brilliant. Changed movies forever.",8,violent shocking utterly brilliant changed movies forever,7
+296,Pulp Fiction (1994),4.197068403908795,I found it gratuitous and exhausting. The 'cool' factor wears thin after the first hour.,15,found gratuitous exhausting cool factor wears thin hour,8
+296,Pulp Fiction (1994),4.197068403908795,The ensemble cast is incredible. Every scene crackles with energy.,10,ensemble cast incredible scene crackles energy,6
+296,Pulp Fiction (1994),4.197068403908795,Overrated hipster cinema. The violence is cartoonish and the plot is a mess.,13,overrated hipster cinema violence cartoonish plot mess,7
+296,Pulp Fiction (1994),4.197068403908795,The Sam Jackson monologue scene alone puts this in the pantheon of great films.,14,sam jackson monologue scene alone puts pantheon great films,9
+296,Pulp Fiction (1994),4.197068403908795,A dazzling piece of filmmaking. Like nothing that came before it.,11,dazzling piece filmmaking came,4
+593,"Silence of the Lambs, The (1991)",4.161290322580645,Anthony Hopkins is terrifyingly perfect. One of cinema's greatest villains.,10,anthony hopkins terrifyingly perfect cinema greatest villains,7
+593,"Silence of the Lambs, The (1991)",4.161290322580645,A masterclass in building tension. I was on the edge of my seat throughout.,14,masterclass building tension edge seat throughout,6
+593,"Silence of the Lambs, The (1991)",4.161290322580645,Jodie Foster is phenomenal. The dynamic between Starling and Lecter is unforgettable.,12,jodie foster phenomenal dynamic starling lecter unforgettable,7
+593,"Silence of the Lambs, The (1991)",4.161290322580645,Deeply unsettling in the best possible way. Brilliant horror filmmaking.,10,deeply unsettling best possible brilliant horror filmmaking,7
+593,"Silence of the Lambs, The (1991)",4.161290322580645,Too slow for a horror movie. Though the final act is genuinely terrifying.,13,slow horror final act genuinely terrifying,6
+593,"Silence of the Lambs, The (1991)",4.161290322580645,The chemistry between Hopkins and Foster elevates this above standard thriller fare.,12,chemistry hopkins foster elevates standard thriller fare,7
+593,"Silence of the Lambs, The (1991)",4.161290322580645,"One of those rare films where every element — score, cinematography, acting — is perfect.",15,rare films element score cinematography acting perfect,7
+593,"Silence of the Lambs, The (1991)",4.161290322580645,Disturbing and smart. The kind of film that stays with you for days.,13,disturbing smart kind stays days,5
+2571,"Matrix, The (1999)",4.192446043165468,Mind-blowing when it came out and still holds up today. The bullet time effect was revolutionary.,16,mind blowing came holds today bullet effect revolutionary,8
+2571,"Matrix, The (1999)",4.192446043165468,"The perfect blend of philosophy, action, and style. An absolute classic.",11,perfect blend philosophy action style absolute classic,7
+2571,"Matrix, The (1999)",4.192446043165468,Keanu Reeves is perfectly cast. The action sequences are still breathtaking.,11,keanu reeves perfectly cast action sequences breathtaking,7
+2571,"Matrix, The (1999)",4.192446043165468,The first half is incredible but it loses steam in the action-heavy finale.,13,half incredible loses steam action heavy finale,7
+2571,"Matrix, The (1999)",4.192446043165468,Overrated sci-fi with a pretentious philosophical veneer. The sequels ruined it.,11,overrated sci pretentious philosophical veneer sequels ruined,7
+2571,"Matrix, The (1999)",4.192446043165468,A genuinely mind-expanding concept executed brilliantly. Changed sci-fi forever.,9,genuinely mind expanding concept executed brilliantly changed sci forever,9
+2571,"Matrix, The (1999)",4.192446043165468,Some of the best action choreography ever put on film. The lobby scene is iconic.,15,best action choreography ever put lobby scene iconic,8
+2571,"Matrix, The (1999)",4.192446043165468,A landmark film. The way it combines ideas with spectacle is still unmatched.,13,landmark combines ideas spectacle unmatched,5
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,The film that changed everything. Pure cinematic magic from start to finish.,12,changed pure cinematic magic start finish,6
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,My childhood defined in two hours. Watching it still gives me chills.,12,childhood defined hours gives chills,5
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,George Lucas created something extraordinary. The world-building is unparalleled.,9,george lucas created extraordinary world building unparalleled,7
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,Dated by today's standards but the sense of adventure is timeless.,11,dated today standards sense adventure timeless,6
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,"The special effects are showing their age, but the heart of the story is eternal.",15,special effects showing age heart story eternal,7
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,This movie invented the modern blockbuster and it's still better than almost all its descendants.,15,invented modern blockbuster better almost descendants,6
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,A bit slow to start but once it picks up it's unstoppable fun.,13,slow start picks unstoppable fun,5
+260,Star Wars: Episode IV - A New Hope (1977),4.231075697211155,The John Williams score alone makes this one of the greatest films ever made.,14,john williams score alone makes greatest films ever,8
+480,Jurassic Park (1993),3.75,The dinosaurs still look incredible 30 years later. Spielberg is a genius.,12,dinosaurs look incredible years later spielberg genius,7
+480,Jurassic Park (1993),3.75,"Pure blockbuster perfection. Thrilling, funny, and visually spectacular.",8,pure blockbuster perfection thrilling funny visually spectacular,7
+480,Jurassic Park (1993),3.75,My favorite summer movie of all time. The T-Rex scene is the greatest jump scare ever.,16,favorite summer rex scene greatest jump scare ever,8
+480,Jurassic Park (1993),3.75,Exciting but thin on character development. Still enormously fun.,9,exciting thin character development enormously fun,6
+480,Jurassic Park (1993),3.75,A technical marvel that delivers genuine thrills. Essential family entertainment.,10,technical marvel delivers genuine thrills essential family entertainment,8
+480,Jurassic Park (1993),3.75,The CGI holds up remarkably well. A testament to Spielberg's craft.,11,cgi holds remarkably testament spielberg craft,6
+480,Jurassic Park (1993),3.75,Decent popcorn fun but hardly the classic people claim it is.,11,decent popcorn fun hardly classic people claim,7
+480,Jurassic Park (1993),3.75,Groundbreaking visual effects married to a genuinely exciting adventure story.,10,groundbreaking visual effects married genuinely exciting adventure story,8
+110,Braveheart (1995),4.031645569620253,"Epic, rousing, and emotionally powerful. Mel Gibson's finest directorial achievement.",10,epic rousing emotionally powerful mel gibson finest directorial achievement,9
+110,Braveheart (1995),4.031645569620253,FREEDOM! Still gives me goosebumps. The battle scenes are extraordinary.,10,freedom gives goosebumps battle scenes extraordinary,6
+110,Braveheart (1995),4.031645569620253,Historically inaccurate but cinematically magnificent. A rousing epic.,8,historically inaccurate cinematically magnificent rousing epic,6
+110,Braveheart (1995),4.031645569620253,Too long and overwrought. The romance subplot drags the whole film down.,12,long overwrought romance subplot drags whole,6
+110,Braveheart (1995),4.031645569620253,Gibson was born to play William Wallace. The passion bleeds through every frame.,13,gibson born play william wallace passion bleeds frame,8
+110,Braveheart (1995),4.031645569620253,Brutal and beautiful. One of the last great Hollywood epics.,10,brutal beautiful last great hollywood epics,6
+110,Braveheart (1995),4.031645569620253,"Manipulative and melodramatic, but it absolutely works. I cried multiple times.",11,manipulative melodramatic absolutely works cried multiple times,7
+110,Braveheart (1995),4.031645569620253,Spectacular filmmaking with genuine emotional weight. Deserved its Oscar.,9,spectacular filmmaking genuine emotional weight deserved oscar,7
+589,Terminator 2: Judgment Day (1991),3.970982142857143,"The greatest action sequel ever made. Bigger, smarter, and more emotional than the original.",14,greatest action sequel ever bigger smarter emotional original,8
+589,Terminator 2: Judgment Day (1991),3.970982142857143,Arnold's best performance. The liquid metal T-1000 is still the gold standard of movie villains.,15,arnold best performance liquid metal gold standard villains,8
+589,Terminator 2: Judgment Day (1991),3.970982142857143,Revolutionized visual effects and still delivers incredible action 30 years on.,11,revolutionized visual effects delivers incredible action years,7
+589,Terminator 2: Judgment Day (1991),3.970982142857143,A rare sequel that surpasses the original in every way.,10,rare sequel surpasses original,4
+589,Terminator 2: Judgment Day (1991),3.970982142857143,The effects are amazing but the story is weaker than the first film.,13,effects amazing story weaker,4
+589,Terminator 2: Judgment Day (1991),3.970982142857143,Linda Hamilton's transformation is one of cinema's great character arcs.,10,linda hamilton transformation cinema great character arcs,7
+589,Terminator 2: Judgment Day (1991),3.970982142857143,Pulse-pounding action combined with genuine emotional stakes. A masterpiece of the genre.,12,pulse pounding action combined genuine emotional stakes masterpiece genre,9
+589,Terminator 2: Judgment Day (1991),3.970982142857143,The highway chase sequence is still the most thrilling action scene I've ever witnessed.,14,highway chase sequence thrilling action scene ever witnessed,8
+527,Schindler's List (1993),4.225,The most important film ever made. Devastating and necessary.,9,important ever devastating necessary,4
+527,Schindler's List (1993),4.225,Spielberg's masterpiece. The black and white photography is hauntingly beautiful.,10,spielberg masterpiece black white photography hauntingly beautiful,7
+527,Schindler's List (1993),4.225,I haven't been able to stop thinking about this film since I watched it.,14,able stop thinking since,4
+527,Schindler's List (1993),4.225,Heartbreaking and essential. Every human being should watch this film.,10,heartbreaking essential human,3
+527,Schindler's List (1993),4.225,Brilliant filmmaking in service of an absolutely crucial historical story.,10,brilliant filmmaking service absolutely crucial historical story,7
+527,Schindler's List (1993),4.225,Almost too painful to watch but impossible to look away from. A genuine masterwork.,14,almost painful impossible look away genuine masterwork,7
+527,Schindler's List (1993),4.225,The ending destroyed me completely. A profound and overwhelming experience.,10,ending destroyed completely profound overwhelming experience,6
+527,Schindler's List (1993),4.225,Dense and heavy but never exploitative. Handled with extraordinary care and artistry.,12,dense heavy exploitative handled extraordinary care artistry,7
+2959,Fight Club (1999),4.272935779816514,"Fincher at his most unhinged. A brilliant, anarchic, and utterly provocative film.",12,fincher unhinged brilliant anarchic utterly provocative,6
+2959,Fight Club (1999),4.272935779816514,The twist is one of cinema's all-time greatest. Blew my mind completely.,12,twist cinema greatest blew mind completely,6
+2959,Fight Club (1999),4.272935779816514,"Edgy and stylish, but the philosophy is more teenage rebellion than genuine insight.",13,edgy stylish philosophy teenage rebellion genuine insight,7
+2959,Fight Club (1999),4.272935779816514,Brad Pitt was never cooler. An absolutely electric performance.,9,brad pitt cooler absolutely electric performance,6
+2959,Fight Club (1999),4.272935779816514,A genuine cultural provocation that still feels dangerous and exciting.,10,genuine cultural provocation feels dangerous exciting,6
+2959,Fight Club (1999),4.272935779816514,Glorifies toxic masculinity under the guise of critique. I couldn't shake my discomfort.,13,glorifies toxic masculinity guise critique shake discomfort,7
+2959,Fight Club (1999),4.272935779816514,The cinematography and editing are extraordinary. Fincher's best film.,9,cinematography editing extraordinary fincher best,5
+2959,Fight Club (1999),4.272935779816514,"Quotable, stylish, and deeply strange. A film that demands multiple viewings.",11,quotable stylish deeply strange demands multiple viewings,7
+1,Toy Story (1995),3.92093023255814,Pixar's first film and still one of their very best. Pure animated joy.,13,pixar best pure animated joy,5
+1,Toy Story (1995),3.92093023255814,A genuinely groundbreaking film that works just as well for adults as for children.,14,genuinely groundbreaking works adults children,5
+1,Toy Story (1995),3.92093023255814,Tom Hanks and Tim Allen are perfect. The voice acting is extraordinary.,12,tom hanks tim allen perfect voice acting extraordinary,8
+1,Toy Story (1995),3.92093023255814,Animation that tells a genuinely moving story about friendship and growing up.,12,animation tells genuinely moving story friendship growing,7
+1,Toy Story (1995),3.92093023255814,Cute but the animation looks primitive today. The story is charming though.,12,cute animation looks primitive today story charming,7
+1,Toy Story (1995),3.92093023255814,Revolutionary at the time and still charming today. A family classic.,11,revolutionary charming today family classic,5
+1,Toy Story (1995),3.92093023255814,The concept of toys coming to life is handled with such imagination and heart.,14,concept toys coming life handled imagination heart,7
+1,Toy Story (1995),3.92093023255814,One of the best children's films ever made. Timeless and beautiful.,11,best children films ever timeless beautiful,6
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,"The best Star Wars film by a significant margin. Darker, deeper, and more emotionally rich.",15,best star wars significant margin darker deeper emotionally rich,9
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,The Vader reveal is the greatest plot twist in movie history. Nothing comes close.,14,vader reveal greatest plot twist history comes close,8
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,A perfect sequel that raises the stakes and deepens every character.,11,perfect sequel raises stakes deepens character,6
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,"Some scenes drag a bit, but the final act more than makes up for it.",15,scenes drag final act makes,5
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,"The asteroid field sequence is Spielberg-level filmmaking. Wait, Lucas. You know what I mean.",14,asteroid field sequence spielberg level filmmaking wait lucas mean,9
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,Yoda is an instant icon. The film introduces so much that would define the series.,15,yoda instant icon introduces define series,6
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,The ending leaves you devastated and desperate for more. Perfect cliffhanger storytelling.,12,ending leaves devastated desperate perfect cliffhanger storytelling,7
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),4.2156398104265405,Darker and more mature than the original. The gold standard for sequels.,12,darker mature original gold standard sequels,6
+50,"Usual Suspects, The (1995)",4.237745098039215,The greatest twist ending in cinema history. Nothing can prepare you for it.,13,greatest twist ending cinema history prepare,6
+50,"Usual Suspects, The (1995)",4.237745098039215,Kevin Spacey gives a career-defining performance. Absolutely brilliant.,8,kevin spacey gives career defining performance absolutely brilliant,8
+50,"Usual Suspects, The (1995)",4.237745098039215,"A twisty, clever thriller that rewards careful viewing. Criminally underrated.",10,twisty clever thriller rewards careful viewing criminally underrated,8
+50,"Usual Suspects, The (1995)",4.237745098039215,"Once you know the twist, a second viewing reveals just how perfectly it was constructed.",15,twist second viewing reveals perfectly constructed,6
+50,"Usual Suspects, The (1995)",4.237745098039215,The ensemble is extraordinary. Every performance is perfectly calibrated.,9,ensemble extraordinary performance perfectly calibrated,5
+50,"Usual Suspects, The (1995)",4.237745098039215,A labyrinthine mystery that's endlessly satisfying. One of the 90s' best films.,12,labyrinthine mystery endlessly satisfying best films,6
+50,"Usual Suspects, The (1995)",4.237745098039215,"Smart, stylish, and completely gripping. The kind of thriller they don't make anymore.",13,smart stylish completely gripping kind thriller anymore,7
+50,"Usual Suspects, The (1995)",4.237745098039215,"Even knowing the twist, it's a masterful piece of filmmaking.",10,knowing twist masterful piece filmmaking,5
+2858,American Beauty (1999),4.056372549019608,A scathing dissection of suburban mediocrity. Kevin Spacey is riveting.,10,scathing dissection suburban mediocrity kevin spacey riveting,7
+2858,American Beauty (1999),4.056372549019608,Beautifully shot and deeply uncomfortable in the best way. A genuine classic.,12,beautifully shot deeply uncomfortable best genuine classic,7
+2858,American Beauty (1999),4.056372549019608,"The plastic bag scene is laughably pretentious. Beautiful cinematography, hollow film.",11,plastic bag scene laughably pretentious beautiful cinematography hollow,8
+2858,American Beauty (1999),4.056372549019608,"A film that thinks it's more profound than it is, but still manages to be compelling.",16,thinks profound manages compelling,4
+2858,American Beauty (1999),4.056372549019608,Theron Birch steals the film. The cinematography by Conrad Hall is extraordinary.,12,theron birch steals cinematography conrad hall extraordinary,7
+2858,American Beauty (1999),4.056372549019608,Felt revolutionary in 1999 and still resonates. A bit dated in its attitudes though.,14,felt revolutionary resonates dated attitudes,5
+2858,American Beauty (1999),4.056372549019608,Annette Bening is criminally underrated in this. One of the great female performances.,13,annette bening criminally underrated great female performances,7
+2858,American Beauty (1999),4.056372549019608,"Dark, funny, and deeply sad. A film that captures a certain American emptiness perfectly.",14,dark funny deeply sad captures certain american emptiness perfectly,9
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,What's in the box?! The most gut-punching ending in thriller history.,11,box gut punching ending thriller history,6
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,Fincher creates an oppressive atmosphere unlike anything else. Genuinely disturbing.,10,fincher creates oppressive atmosphere unlike else genuinely disturbing,8
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,Freeman and Pitt are electric together. The mystery is cleverly constructed.,11,freeman pitt electric together mystery cleverly constructed,7
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,Too bleak and nihilistic for my taste. Technically brilliant but emotionally exhausting.,12,bleak nihilistic taste technically brilliant emotionally exhausting,7
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,One of the great thrillers. The darkness feels earned rather than gratuitous.,12,great thrillers darkness feels earned gratuitous,6
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,The killer's logic is terrifying precisely because it makes a twisted kind of sense.,14,killer logic terrifying precisely makes twisted kind sense,8
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,Brilliant visual design serves a genuinely shocking story. A landmark of the genre.,13,brilliant visual design serves genuinely shocking story landmark genre,9
+47,Seven (a.k.a. Se7en) (1995),3.975369458128079,Deeply uncomfortable viewing but absolutely essential cinema.,7,deeply uncomfortable viewing absolutely essential cinema,6
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,Mindless summer blockbuster fun. Will Smith is charismatic as ever.,10,mindless summer blockbuster fun smith charismatic ever,7
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,Spectacular destruction sequences. Exactly what you want from a summer movie.,11,spectacular destruction sequences exactly want summer,6
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,Stupid but enormously entertaining. The presidential speech is pure cheese gold.,11,stupid enormously entertaining presidential speech pure cheese gold,8
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,The effects are dated but the sheer scale of spectacle is still impressive.,13,effects dated sheer scale spectacle impressive,6
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,A silly but genuinely exciting alien invasion movie. Pure popcorn entertainment.,11,silly genuinely exciting alien invasion pure popcorn entertainment,8
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,Jeff Goldblum saves the world with a MacBook. Dumb as rocks but hugely entertaining.,14,jeff goldblum saves world macbook dumb rocks hugely entertaining,9
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,"The alien design is terrifying. The human story less so, but it works as spectacle.",15,alien design terrifying human story less works spectacle,8
+780,Independence Day (a.k.a. ID4) (1996),3.445544554455445,"Fun for about 90 minutes, then completely exhausting. It's at least 30 minutes too long.",15,fun minutes completely exhausting least minutes long,7
+150,Apollo 13 (1995),3.845771144278607,Thrilling despite knowing the outcome. Ron Howard at his most technically accomplished.,12,thrilling despite knowing outcome ron howard technically accomplished,8
+150,Apollo 13 (1995),3.845771144278607,"Tom Hanks, Kevin Bacon, and Bill Paxton are all superb. A genuinely gripping true story.",15,tom hanks kevin bacon bill paxton superb genuinely gripping true story,11
+150,Apollo 13 (1995),3.845771144278607,The attention to historical detail is remarkable. An underrated gem.,10,attention historical detail remarkable underrated gem,6
+150,Apollo 13 (1995),3.845771144278607,Tense and moving. Ed Harris is magnificent as the NASA flight director.,12,tense moving harris magnificent nasa flight director,7
+150,Apollo 13 (1995),3.845771144278607,A bit glossy and Hollywood-ized but the core story is so compelling it doesn't matter.,15,glossy hollywood ized core story compelling matter,7
+150,Apollo 13 (1995),3.845771144278607,One of the best 'true story' films ever made. Riveting from start to finish.,14,best true story films ever riveting start finish,8
+150,Apollo 13 (1995),3.845771144278607,"Safe and conventional filmmaking, but the true events are so extraordinary it overcomes that.",14,safe conventional filmmaking true events extraordinary overcomes,7
+150,Apollo 13 (1995),3.845771144278607,The capsule sequences are claustrophobically tense. Excellent technical filmmaking.,9,capsule sequences claustrophobically tense excellent technical filmmaking,7
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,The perfect adventure film. Every single scene is iconic.,9,perfect adventure single scene iconic,5
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,Harrison Ford defined an archetype with this role. Pure cinematic magic.,11,harrison ford defined archetype role pure cinematic magic,8
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,Spielberg and Lucas at the absolute top of their games. A treasure.,12,spielberg lucas absolute top games treasure,6
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,Still the gold standard for action-adventure films. Nothing has bettered it.,11,gold standard action adventure films bettered,6
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,"The boulder scene, the face-melting finale — pure genius from start to finish.",13,boulder scene face melting finale pure genius start finish,9
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,Fun and fast-paced but the ending is a bit of a cop-out. Still enormously enjoyable.,15,fun fast paced ending cop enormously enjoyable,7
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,John Williams' score is as perfect as the film itself. An absolute classic.,13,john williams score perfect absolute classic,6
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.2075,The greatest adventure film ever made. Endlessly rewatchable and always thrilling.,11,greatest adventure ever endlessly rewatchable always thrilling,7
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,Jackson pulled off the impossible. This adaptation is everything a Tolkien fan could dream of.,15,jackson pulled impossible adaptation tolkien fan dream,7
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,"Three hours fly by. Immersive, epic, and emotionally involving.",9,hours fly immersive epic emotionally involving,6
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,The world-building is extraordinary. Middle-earth feels genuinely real.,8,world building extraordinary middle earth feels genuinely real,8
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,Too long and slow in the first half. The Mines of Moria sequence saves it.,15,long slow half mines moria sequence saves,7
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,A stunning technical achievement that never loses sight of its emotional core.,12,stunning technical achievement loses sight emotional core,7
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,Ian McKellen IS Gandalf. The casting throughout is impeccable.,9,ian mckellen gandalf casting throughout impeccable,6
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,"The most ambitious fantasy film ever made, and one of the most successful.",13,ambitious fantasy ever successful,4
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",4.106060606060606,Sets up an extraordinary trilogy with patience and craft. A masterpiece.,11,sets extraordinary trilogy patience craft masterpiece,6
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,A satisfying conclusion to the original trilogy. The Jabba palace sequence is wild.,13,satisfying conclusion original trilogy jabba palace sequence wild,8
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,The forest moon battle is my favorite sequence in any Star Wars film.,13,forest moon battle favorite sequence any star wars,8
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,"The Ewoks are a bit much, but the Luke/Vader/Emperor scenes are the trilogy's emotional peak.",15,ewoks luke vader emperor scenes trilogy emotional peak,8
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,Slightly weaker than its predecessors but a worthy conclusion to the saga.,12,slightly weaker predecessors worthy conclusion saga,6
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,The final confrontation between Luke and Vader is cinema's greatest father-son moment.,12,final confrontation luke vader cinema greatest father son moment,9
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,Too cute and commercial. The Ewoks dragged down what should have been a dark epic.,15,cute commercial ewoks dragged dark epic,6
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,James Earl Jones delivers Vader's redemption with extraordinary grace.,9,james earl jones delivers vader redemption extraordinary grace,8
+1210,Star Wars: Episode VI - Return of the Jedi (1983),4.137755102040816,The space battle is spectacular. The film delivers everything fans could have hoped for.,14,space battle spectacular delivers fans hoped,6
+858,"Godfather, The (1972)",4.2890625,"The greatest film ever made. Every frame is a painting, every line is scripture.",14,greatest ever frame painting line scripture,6
+858,"Godfather, The (1972)",4.2890625,Brando and Pacino give two of the greatest performances in cinema history.,12,brando pacino give greatest performances cinema history,7
+858,"Godfather, The (1972)",4.2890625,I resisted watching this for years. Now I understand why it's considered the pinnacle.,14,resisted years understand considered pinnacle,5
+858,"Godfather, The (1972)",4.2890625,Slow by modern standards but utterly mesmerizing. Patience rewards you enormously.,11,slow modern standards utterly mesmerizing patience rewards enormously,8
+858,"Godfather, The (1972)",4.2890625,The baptism sequence intercut with the killings is the greatest editing in cinema history.,14,baptism sequence intercut killings greatest editing cinema history,8
+858,"Godfather, The (1972)",4.2890625,Gordon Willis' cinematography is breathtaking. So much of the film is in shadow.,13,gordon willis cinematography breathtaking shadow,5
+858,"Godfather, The (1972)",4.2890625,A perfect film in every conceivable way. Nothing comes close.,10,perfect conceivable comes close,4
+858,"Godfather, The (1972)",4.2890625,The moment Pacino transforms in the restaurant scene is one of cinema's great revelations.,14,moment pacino transforms restaurant scene cinema great revelations,8
+457,"Fugitive, The (1993)",3.992105263157895,Harrison Ford and Tommy Lee Jones make a legendary screen pairing. Pure thriller fun.,14,harrison ford tommy lee jones legendary screen pairing pure thriller fun,11
+457,"Fugitive, The (1993)",3.992105263157895,Jones won his Oscar and deserved every second of it. An absolute force of nature.,15,jones oscar deserved second absolute force nature,7
+457,"Fugitive, The (1993)",3.992105263157895,Relentlessly paced thriller. Barely a moment to breathe.,8,relentlessly paced thriller barely moment breathe,6
+457,"Fugitive, The (1993)",3.992105263157895,A brilliant cat-and-mouse movie. The train crash sequence is extraordinary.,10,brilliant cat mouse train crash sequence extraordinary,7
+457,"Fugitive, The (1993)",3.992105263157895,"Clever, exciting, and well-acted. One of the best thrillers of the 90s.",12,clever exciting acted best thrillers,5
+457,"Fugitive, The (1993)",3.992105263157895,Fun but fairly forgettable. Good for a rainy night but nothing more.,12,fun fairly forgettable good rainy night,6
+457,"Fugitive, The (1993)",3.992105263157895,The waterfall jump scene is one of cinema's great moments of pure release.,13,waterfall jump scene cinema great moments pure release,8
+457,"Fugitive, The (1993)",3.992105263157895,"Jones steals every scene from Ford, which is quite the achievement.",11,jones steals scene ford achievement,5
+592,Batman (1989),3.4285714285714284,Tim Burton created something genuinely strange and wonderful. Nicholson is insane.,11,tim burton created genuinely strange wonderful nicholson insane,8
+592,Batman (1989),3.4285714285714284,"A dark, expressionistic take on Batman that still holds up. Gotham City is incredible.",14,dark expressionistic take batman holds gotham city incredible,8
+592,Batman (1989),3.4285714285714284,Keaton was a perfect Batman. Still better than most of what came after.,13,keaton perfect batman better came,5
+592,Batman (1989),3.4285714285714284,"More of a Joker movie than a Batman movie, but that's fine given how good Nicholson is.",17,joker batman fine given good nicholson,6
+592,Batman (1989),3.4285714285714284,The art direction is extraordinary. Danny Elfman's score is iconic.,10,art direction extraordinary danny elfman score iconic,7
+592,Batman (1989),3.4285714285714284,"Campy and a bit dated, but there's a genuine auteurist vision here.",12,campy dated genuine auteurist vision,5
+592,Batman (1989),3.4285714285714284,Doesn't hold up well. The storytelling is muddled and the pacing is off.,13,hold storytelling muddled pacing,4
+592,Batman (1989),3.4285714285714284,A landmark in superhero cinema. Established that comic book movies could be art.,13,landmark superhero cinema established comic book movies art,8
+2028,Saving Private Ryan (1998),4.1462765957446805,The Omaha Beach sequence is the most intense 30 minutes ever put on film.,14,omaha beach sequence intense minutes ever put,7
+2028,Saving Private Ryan (1998),4.1462765957446805,"Spielberg created the definitive war movie. Raw, honest, and devastating.",10,spielberg created definitive war raw honest devastating,7
+2028,Saving Private Ryan (1998),4.1462765957446805,The opening is extraordinary but the rest of the film doesn't quite match it.,14,opening extraordinary rest match,4
+2028,Saving Private Ryan (1998),4.1462765957446805,Tom Hanks gives one of his finest performances. The ensemble is extraordinary.,12,tom hanks gives finest performances ensemble extraordinary,7
+2028,Saving Private Ryan (1998),4.1462765957446805,"Brutal, honest, and genuinely antiwar despite the heroics. A masterpiece.",10,brutal honest genuinely antiwar despite heroics masterpiece,7
+2028,Saving Private Ryan (1998),4.1462765957446805,The color-desaturated cinematography creates an almost documentary feel. Haunting.,9,color desaturated cinematography creates almost documentary haunting,7
+2028,Saving Private Ryan (1998),4.1462765957446805,The veterans I watched this with wept. That's all the review you need.,13,veterans wept review need,4
+2028,Saving Private Ryan (1998),4.1462765957446805,One of the most morally serious war films ever made.,10,morally serious war films ever,5
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,Helm's Deep is the greatest battle sequence ever filmed. Mind-blowing.,10,helm deep greatest battle sequence ever filmed mind blowing,9
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,Gollum is a CGI miracle. Still the most compelling motion capture character ever.,13,gollum cgi miracle compelling motion capture character ever,8
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,The middle chapter problem — it feels bridging. But a magnificent bridge.,12,middle chapter problem feels bridging magnificent bridge,7
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,Even longer than the first and somehow even more immersive.,10,longer somehow immersive,3
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,Treebeard and the Ents are my favorite part. Unexpectedly moving.,10,treebeard ents favorite part unexpectedly moving,6
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,The Gollum/Smeagol dialogue scenes are extraordinary pieces of performance and writing.,11,gollum smeagol dialogue scenes extraordinary pieces performance writing,8
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,Sets up the finale brilliantly. The scale is unprecedented.,9,sets finale brilliantly scale unprecedented,5
+5952,"Lord of the Rings: The Two Towers, The (2002)",4.0212765957446805,A marvel of practical and digital filmmaking. Jackson was at the height of his powers.,15,marvel practical digital filmmaking jackson height powers,7
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,A monumental conclusion. The Battle of Pelennor Fields is breathtaking.,10,monumental conclusion battle pelennor fields breathtaking,6
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,The multiple endings are indulgent but I didn't want it to be over either.,14,multiple endings indulgent want either,5
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,An Oscar-winning finale that delivers on every promise of the trilogy.,11,oscar winning finale delivers promise trilogy,6
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,"Emotionally overwhelming. 'I can't carry it for you, but I can carry you' destroyed me.",15,emotionally overwhelming carry carry destroyed,5
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,The battle sequences are unmatched in cinema. Pure spectacle in service of story.,13,battle sequences unmatched cinema pure spectacle service story,8
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,Beautiful but the hobbit farewell scenes go on forever. Minor complaint for a masterwork.,14,beautiful hobbit farewell scenes forever minor complaint masterwork,8
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,A perfect ending to the greatest film trilogy ever made.,10,perfect ending greatest trilogy ever,5
+7153,"Lord of the Rings: The Return of the King, The (2003)",4.118918918918919,The Grey Havens farewell is one of cinema's most beautiful and heartbreaking moments.,13,grey havens farewell cinema beautiful heartbreaking moments,7
+588,Aladdin (1992),3.792349726775957,Robin Williams as the Genie is one of the greatest voice performances ever recorded.,14,robin williams genie greatest voice performances ever recorded,8
+588,Aladdin (1992),3.792349726775957,A classic Disney film. The songs are incredible and the story is charming.,13,classic disney songs incredible story charming,6
+588,Aladdin (1992),3.792349726775957,"Bright, fun, and constantly inventive. Williams improvised most of his best moments.",12,bright fun constantly inventive williams improvised best moments,8
+588,Aladdin (1992),3.792349726775957,The animation is gorgeous. A high point for Disney's second golden age.,12,animation gorgeous high point disney second golden age,8
+588,Aladdin (1992),3.792349726775957,Enjoyable but fairly thin on story. Williams carries everything on his back.,12,enjoyable fairly thin story williams carries,6
+588,Aladdin (1992),3.792349726775957,A whole new world is one of the greatest Disney songs. The film lives up to it.,17,whole new world greatest disney songs lives,7
+588,Aladdin (1992),3.792349726775957,Fun and fast-moving. The villain Jafar is wonderfully theatrical.,9,fun fast moving villain jafar wonderfully theatrical,7
+588,Aladdin (1992),3.792349726775957,Nostalgic perfection. This film defined my childhood.,7,nostalgic perfection defined childhood,4
+608,Fargo (1996),4.116022099447513,The Coens at their most perfectly balanced between dark comedy and genuine horror.,13,coens perfectly balanced dark comedy genuine horror,7
+608,Fargo (1996),4.116022099447513,Frances McDormand's Marge Gunderson is one of cinema's greatest characters.,10,frances mcdormand marge gunderson cinema greatest characters,7
+608,Fargo (1996),4.116022099447513,A masterpiece of tone. Somehow funny and genuinely disturbing at the same time.,13,masterpiece tone somehow funny genuinely disturbing,6
+608,Fargo (1996),4.116022099447513,The Minnesota accents are almost a character in themselves. Brilliantly observed.,11,minnesota accents almost character brilliantly observed,6
+608,Fargo (1996),4.116022099447513,The wood chipper scene is one of cinema's most shocking moments. Nothing prepares you for it.,16,wood chipper scene cinema shocking moments prepares,7
+608,Fargo (1996),4.116022099447513,Deliberately paced and incredibly assured. The Coens know exactly what they're doing.,12,deliberately paced incredibly assured coens exactly,6
+608,Fargo (1996),4.116022099447513,Quirky but not in an annoying way. A film that earns every laugh.,13,quirky annoying earns laugh,4
+608,Fargo (1996),4.116022099447513,McDormand deserved every award she received. A towering performance.,9,mcdormand deserved award received towering performance,6
+2762,"Sixth Sense, The (1999)",3.893854748603352,The twist is extraordinary. On re-watch you realize every clue was there all along.,14,twist extraordinary realize clue along,5
+2762,"Sixth Sense, The (1999)",3.893854748603352,Haley Joel Osment gives one of the greatest child performances ever recorded.,12,haley joel osment gives greatest child performances ever recorded,9
+2762,"Sixth Sense, The (1999)",3.893854748603352,Bruce Willis is unusually understated and it works perfectly.,9,bruce willis unusually understated works perfectly,6
+2762,"Sixth Sense, The (1999)",3.893854748603352,"The twist only works once. After that, the movie is fairly thin.",12,twist works fairly thin,4
+2762,"Sixth Sense, The (1999)",3.893854748603352,Slow-burn psychological horror done masterfully. M. Night was genuinely special here.,11,slow burn psychological horror done masterfully night genuinely special,9
+2762,"Sixth Sense, The (1999)",3.893854748603352,The relationship between the child and Willis is beautifully developed.,10,relationship child willis beautifully developed,5
+2762,"Sixth Sense, The (1999)",3.893854748603352,A genuinely moving film beneath the horror elements. The ending is devastating.,12,genuinely moving beneath horror elements ending devastating,7
+2762,"Sixth Sense, The (1999)",3.893854748603352,The craft here is extraordinary. The color red motif rewards multiple viewings.,12,craft extraordinary color red motif rewards multiple viewings,8

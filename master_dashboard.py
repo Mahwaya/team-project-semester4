@@ -22,17 +22,29 @@ st.set_page_config(
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
-# ── WSB Brand Theme ────────────────────────────────────────────────────────────
+# ── WSB Brand Theme — Option B: Charcoal & Rose ────────────────────────────────
 WSB_PINK   = "#E2007A"
-WSB_ORANGE = "#E84813"
-WSB_DARK   = "#1C0A12"
-WSB_LIGHT  = "#FDEEF6"
+WSB_SALMON = "#FF8C69"
+WSB_TEAL   = "#56CFB2"
+WSB_DARK   = "#2A1010"
+BG_MAIN    = "#1A1A1A"
+BG_CARD    = "#2A2020"
+BG_SIDEBAR = "#2A1010"
 
 st.markdown(f"""
 <style>
-  /* Sidebar background */
+  /* Main background */
+  .stApp {{
+      background-color: {BG_MAIN};
+      color: #F5F5F5;
+  }}
+  /* All default text */
+  body, p, span, div, li, label {{
+      color: #F5F5F5 !important;
+  }}
+  /* Sidebar */
   [data-testid="stSidebar"] {{
-      background-color: {WSB_DARK};
+      background-color: {BG_SIDEBAR};
   }}
   [data-testid="stSidebar"] * {{
       color: #FFFFFF !important;
@@ -47,10 +59,6 @@ st.markdown(f"""
   [data-testid="stHeader"] {{
       background-color: {WSB_PINK};
   }}
-  /* Main page background */
-  .stApp {{
-      background-color: #FAFAFA;
-  }}
   /* Page titles */
   h1 {{
       color: {WSB_PINK} !important;
@@ -58,36 +66,52 @@ st.markdown(f"""
       padding-bottom: 8px;
   }}
   h2, h3 {{
-      color: {WSB_DARK} !important;
+      color: {WSB_SALMON} !important;
   }}
   /* Metric labels */
   [data-testid="stMetricLabel"] {{
-      color: {WSB_PINK} !important;
+      color: {WSB_SALMON} !important;
       font-weight: 600;
   }}
   /* Metric values */
   [data-testid="stMetricValue"] {{
-      color: {WSB_DARK} !important;
+      color: #FFFFFF !important;
+  }}
+  [data-testid="stMetricDelta"] {{
+      color: {WSB_TEAL} !important;
   }}
   /* Divider */
   hr {{
       border-color: {WSB_PINK} !important;
-      opacity: 0.3;
+      opacity: 0.4;
   }}
-  /* Info/warning/error boxes */
+  /* Alert boxes */
   .stAlert {{
-      border-left: 4px solid {WSB_PINK} !important;
+      background-color: {BG_CARD} !important;
+      border-left: 4px solid {WSB_SALMON} !important;
+      color: #F5F5F5 !important;
   }}
-  /* Dataframe header */
+  /* Dataframe */
   .dataframe thead th {{
       background-color: {WSB_PINK} !important;
       color: white !important;
+  }}
+  [data-testid="stDataFrame"] {{
+      background-color: {BG_CARD} !important;
+  }}
+  /* Caption / subtext */
+  .stCaption, [data-testid="stCaptionContainer"] {{
+      color: #BBBBBB !important;
   }}
   /* Sidebar section labels */
   [data-testid="stSidebar"] .stMarkdown p {{
       color: #CCCCCC !important;
   }}
-  /* WSB logo bar at top of sidebar */
+  /* Input widgets */
+  [data-testid="stMultiSelect"], [data-testid="stSlider"] {{
+      color: #F5F5F5 !important;
+  }}
+  /* WSB logo bar */
   .wsb-logo {{
       background: {WSB_PINK};
       color: white;
@@ -137,11 +161,11 @@ st.sidebar.markdown("**Presentation:** April 21, 2026")
 # ══════════════════════════════════════════════════════════════════════════════
 if page == "Home":
     st.markdown(f"""
-    <div style="background:{WSB_PINK};padding:24px 32px;border-radius:10px;margin-bottom:20px;">
+    <div style="background:linear-gradient(135deg,{WSB_PINK},{WSB_SALMON});padding:24px 32px;border-radius:10px;margin-bottom:20px;">
         <h1 style="color:white !important;border:none;padding:0;margin:0;font-size:2rem;">
             SIPDiDS Team Data Science Project
         </h1>
-        <p style="color:#FDEEF6;margin:6px 0 0 0;font-size:1rem;">
+        <p style="color:#FFE8E0;margin:6px 0 0 0;font-size:1rem;">
             Semester 4 · MSc Data Scientist · WSB University Dabrowa Gornicza
         </p>
     </div>
@@ -157,46 +181,46 @@ if page == "Home":
 
     with col1:
         st.markdown(f"""
-        <div style="{card_style.format(color=WSB_PINK, bg='#FFF0F8')}">
+        <div style="{card_style.format(color=WSB_PINK, bg=BG_CARD)}">
             <h3 style="color:{WSB_PINK};margin-top:0;">Integration 1</h3>
-            <b>Social Media &amp; Stock Markets</b>
-            <ul style="margin-top:8px;padding-left:18px;">
+            <b style="color:#F5F5F5;">Social Media &amp; Stock Markets</b>
+            <ul style="margin-top:8px;padding-left:18px;color:#DDDDDD;">
                 <li>Reddit sentiment (AAPL, TSLA, AMZN)</li>
                 <li>Stock price + volatility via yfinance</li>
                 <li>Pearson &amp; Spearman correlation</li>
-                <li><b>Finding:</b> Reddit is a lagging indicator</li>
+                <li><b style="color:#F5F5F5;">Finding:</b> Reddit is a lagging indicator</li>
             </ul>
-            <p style="color:#888;margin:0;"><i>Percival + Shamil</i></p>
+            <p style="color:{WSB_SALMON};margin:0;"><i>Percival + Shamil</i></p>
         </div>
         """, unsafe_allow_html=True)
 
     with col2:
         st.markdown(f"""
-        <div style="{card_style.format(color=WSB_ORANGE, bg='#FFF5F0')}">
-            <h3 style="color:{WSB_ORANGE};margin-top:0;">Integration 2</h3>
-            <b>Movie Insights &amp; Sentiment</b>
-            <ul style="margin-top:8px;padding-left:18px;">
+        <div style="{card_style.format(color=WSB_SALMON, bg='#2A2015')}">
+            <h3 style="color:{WSB_SALMON};margin-top:0;">Integration 2</h3>
+            <b style="color:#F5F5F5;">Movie Insights &amp; Sentiment</b>
+            <ul style="margin-top:8px;padding-left:18px;color:#DDDDDD;">
                 <li>MovieLens 100K ratings analysis</li>
                 <li>VADER sentiment on movie reviews</li>
                 <li>Genre &amp; user behaviour analysis</li>
-                <li><b>Finding:</b> Sentiment ≠ star rating</li>
+                <li><b style="color:#F5F5F5;">Finding:</b> Sentiment ≠ star rating</li>
             </ul>
-            <p style="color:#888;margin:0;"><i>Peris + Nihat</i></p>
+            <p style="color:{WSB_SALMON};margin:0;"><i>Peris + Nihat</i></p>
         </div>
         """, unsafe_allow_html=True)
 
     with col3:
         st.markdown(f"""
-        <div style="{card_style.format(color='#2ecc71', bg='#F0FFF5')}">
-            <h3 style="color:#27ae60;margin-top:0;">Standalone Task</h3>
-            <b>Academic Publication Trends</b>
-            <ul style="margin-top:8px;padding-left:18px;">
+        <div style="{card_style.format(color=WSB_TEAL, bg='#0F2520')}">
+            <h3 style="color:{WSB_TEAL};margin-top:0;">Standalone Task</h3>
+            <b style="color:#F5F5F5;">Academic Publication Trends</b>
+            <ul style="margin-top:8px;padding-left:18px;color:#DDDDDD;">
                 <li>3,327 papers · 5 fields · 2015–2025</li>
                 <li>Publication volume &amp; keyword trends</li>
                 <li>Emerging vs declining research areas</li>
-                <li><b>Finding:</b> Renewable Energy only growing</li>
+                <li><b style="color:#F5F5F5;">Finding:</b> Renewable Energy only growing</li>
             </ul>
-            <p style="color:#888;margin:0;"><i>Christian / Shamil</i></p>
+            <p style="color:{WSB_TEAL};margin:0;"><i>Christian</i></p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -496,7 +520,7 @@ elif page == "Academic Publication Trends":
     df = load_pubs()
 
     st.title("Academic Publication Trend Analysis")
-    st.caption("CrossRef API | 3,327 clean records | 5 fields | 2015–2025 | Christian / Shamil")
+    st.caption("CrossRef API | 3,327 clean records | 5 fields | 2015–2025 | Christian")
 
     st.sidebar.markdown("---")
     all_fields = sorted(df["field"].unique())
@@ -622,8 +646,23 @@ elif page == "Academic Publication Trends":
 
     st.divider()
     c1, c2, c3 = st.columns(3)
-    c1.info("**Only Growing Field**\nRenewable Energy +1.41 papers/year. All others declining.")
-    c2.warning("**Highest Citation Impact**\nRenewable Energy 59.21 avg citations — nearly 3× Climate Science.")
-    c3.error("**Fastest Declining**\nNeuroscience & Bioinformatics both −0.68/year.")
+    with c1:
+        st.markdown(f"""
+        <div style="background:#0F2520;border-top:3px solid {WSB_TEAL};border-radius:8px;padding:14px;">
+            <b style="color:{WSB_TEAL};">Only Growing Field</b>
+            <p style="color:#DDDDDD;margin:6px 0 0 0;font-size:0.9rem;">Renewable Energy +1.41 papers/year. All others declining.</p>
+        </div>""", unsafe_allow_html=True)
+    with c2:
+        st.markdown(f"""
+        <div style="background:{BG_CARD};border-top:3px solid {WSB_SALMON};border-radius:8px;padding:14px;">
+            <b style="color:{WSB_SALMON};">Highest Citation Impact</b>
+            <p style="color:#DDDDDD;margin:6px 0 0 0;font-size:0.9rem;">Renewable Energy 59.21 avg citations — nearly 3× Climate Science.</p>
+        </div>""", unsafe_allow_html=True)
+    with c3:
+        st.markdown(f"""
+        <div style="background:#2A1515;border-top:3px solid {WSB_PINK};border-radius:8px;padding:14px;">
+            <b style="color:{WSB_PINK};">Fastest Declining</b>
+            <p style="color:#DDDDDD;margin:6px 0 0 0;font-size:0.9rem;">Neuroscience &amp; Bioinformatics both −0.68/year.</p>
+        </div>""", unsafe_allow_html=True)
 
-    st.caption("Standalone: Academic Publication Mining | Christian / Shamil | Semester 4 Team Project")
+    st.caption("Standalone: Academic Publication Mining | Christian | Semester 4 Team Project")

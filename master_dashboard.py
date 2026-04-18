@@ -22,9 +22,98 @@ st.set_page_config(
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
+# ── WSB Brand Theme ────────────────────────────────────────────────────────────
+WSB_PINK   = "#E2007A"
+WSB_ORANGE = "#E84813"
+WSB_DARK   = "#1C0A12"
+WSB_LIGHT  = "#FDEEF6"
+
+st.markdown(f"""
+<style>
+  /* Sidebar background */
+  [data-testid="stSidebar"] {{
+      background-color: {WSB_DARK};
+  }}
+  [data-testid="stSidebar"] * {{
+      color: #FFFFFF !important;
+  }}
+  /* Radio selected item */
+  [data-testid="stSidebar"] .stRadio label:has(input:checked) {{
+      background-color: {WSB_PINK} !important;
+      border-radius: 6px;
+      padding: 4px 8px;
+  }}
+  /* Top header bar */
+  [data-testid="stHeader"] {{
+      background-color: {WSB_PINK};
+  }}
+  /* Main page background */
+  .stApp {{
+      background-color: #FAFAFA;
+  }}
+  /* Page titles */
+  h1 {{
+      color: {WSB_PINK} !important;
+      border-bottom: 3px solid {WSB_PINK};
+      padding-bottom: 8px;
+  }}
+  h2, h3 {{
+      color: {WSB_DARK} !important;
+  }}
+  /* Metric labels */
+  [data-testid="stMetricLabel"] {{
+      color: {WSB_PINK} !important;
+      font-weight: 600;
+  }}
+  /* Metric values */
+  [data-testid="stMetricValue"] {{
+      color: {WSB_DARK} !important;
+  }}
+  /* Divider */
+  hr {{
+      border-color: {WSB_PINK} !important;
+      opacity: 0.3;
+  }}
+  /* Info/warning/error boxes */
+  .stAlert {{
+      border-left: 4px solid {WSB_PINK} !important;
+  }}
+  /* Dataframe header */
+  .dataframe thead th {{
+      background-color: {WSB_PINK} !important;
+      color: white !important;
+  }}
+  /* Sidebar section labels */
+  [data-testid="stSidebar"] .stMarkdown p {{
+      color: #CCCCCC !important;
+  }}
+  /* WSB logo bar at top of sidebar */
+  .wsb-logo {{
+      background: {WSB_PINK};
+      color: white;
+      padding: 14px 16px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      text-align: center;
+  }}
+  .wsb-sub {{
+      color: #FFAAD8 !important;
+      font-size: 0.78rem;
+      text-align: center;
+      margin-top: -8px;
+      margin-bottom: 12px;
+  }}
+</style>
+""", unsafe_allow_html=True)
+
 # ── Sidebar navigation ─────────────────────────────────────────────────────────
-st.sidebar.title("SIPDiDS Team Project")
-st.sidebar.caption("Semester 4 | Data Science")
+st.sidebar.markdown('<div class="wsb-logo">WSB University</div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="wsb-sub">Akademia WSB · Dabrowa Gornicza</div>', unsafe_allow_html=True)
+st.sidebar.markdown("**SIPDiDS Team Project**")
+st.sidebar.caption("Semester 4 | MSc Data Scientist")
 st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
@@ -47,43 +136,69 @@ st.sidebar.markdown("**Presentation:** April 21, 2026")
 # HOME
 # ══════════════════════════════════════════════════════════════════════════════
 if page == "Home":
-    st.title("SIPDiDS Team Data Science Project")
-    st.subheader("Semester 4 — Integrated Data Analysis Platform")
+    st.markdown(f"""
+    <div style="background:{WSB_PINK};padding:24px 32px;border-radius:10px;margin-bottom:20px;">
+        <h1 style="color:white !important;border:none;padding:0;margin:0;font-size:2rem;">
+            SIPDiDS Team Data Science Project
+        </h1>
+        <p style="color:#FDEEF6;margin:6px 0 0 0;font-size:1rem;">
+            Semester 4 · MSc Data Scientist · WSB University Dabrowa Gornicza
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
     st.markdown("---")
 
     col1, col2, col3 = st.columns(3)
+
+    card_style = (
+        "border-left:5px solid {color};background:{bg};"
+        "padding:20px;border-radius:8px;height:100%;"
+    )
+
     with col1:
-        st.markdown("### Integration 1")
-        st.markdown("**Social Media & Stock Markets**")
-        st.markdown("""
-- Reddit sentiment analysis (AAPL, TSLA, AMZN)
-- Stock price + volatility mining via yfinance
-- Pearson & Spearman correlation analysis
-- **Key finding:** Reddit is a lagging indicator
-        """)
-        st.markdown("*Percival + Shamil*")
+        st.markdown(f"""
+        <div style="{card_style.format(color=WSB_PINK, bg='#FFF0F8')}">
+            <h3 style="color:{WSB_PINK};margin-top:0;">Integration 1</h3>
+            <b>Social Media &amp; Stock Markets</b>
+            <ul style="margin-top:8px;padding-left:18px;">
+                <li>Reddit sentiment (AAPL, TSLA, AMZN)</li>
+                <li>Stock price + volatility via yfinance</li>
+                <li>Pearson &amp; Spearman correlation</li>
+                <li><b>Finding:</b> Reddit is a lagging indicator</li>
+            </ul>
+            <p style="color:#888;margin:0;"><i>Percival + Shamil</i></p>
+        </div>
+        """, unsafe_allow_html=True)
 
     with col2:
-        st.markdown("### Integration 2")
-        st.markdown("**Movie Insights & Sentiment**")
-        st.markdown("""
-- MovieLens 100K ratings analysis
-- VADER sentiment on curated movie reviews
-- Genre & user behaviour analysis
-- **Key finding:** Sentiment score ≠ star rating
-        """)
-        st.markdown("*Peris + Nihat*")
+        st.markdown(f"""
+        <div style="{card_style.format(color=WSB_ORANGE, bg='#FFF5F0')}">
+            <h3 style="color:{WSB_ORANGE};margin-top:0;">Integration 2</h3>
+            <b>Movie Insights &amp; Sentiment</b>
+            <ul style="margin-top:8px;padding-left:18px;">
+                <li>MovieLens 100K ratings analysis</li>
+                <li>VADER sentiment on movie reviews</li>
+                <li>Genre &amp; user behaviour analysis</li>
+                <li><b>Finding:</b> Sentiment ≠ star rating</li>
+            </ul>
+            <p style="color:#888;margin:0;"><i>Peris + Nihat</i></p>
+        </div>
+        """, unsafe_allow_html=True)
 
     with col3:
-        st.markdown("### Standalone Task")
-        st.markdown("**Academic Publication Trends**")
-        st.markdown("""
-- 3,327 papers across 5 fields (2015–2025)
-- Publication volume & keyword trends
-- Emerging vs declining research areas
-- **Key finding:** Renewable Energy only growing field
-        """)
-        st.markdown("*Christian / Shamil*")
+        st.markdown(f"""
+        <div style="{card_style.format(color='#2ecc71', bg='#F0FFF5')}">
+            <h3 style="color:#27ae60;margin-top:0;">Standalone Task</h3>
+            <b>Academic Publication Trends</b>
+            <ul style="margin-top:8px;padding-left:18px;">
+                <li>3,327 papers · 5 fields · 2015–2025</li>
+                <li>Publication volume &amp; keyword trends</li>
+                <li>Emerging vs declining research areas</li>
+                <li><b>Finding:</b> Renewable Energy only growing</li>
+            </ul>
+            <p style="color:#888;margin:0;"><i>Christian / Shamil</i></p>
+        </div>
+        """, unsafe_allow_html=True)
 
     st.markdown("---")
     m1, m2, m3, m4, m5 = st.columns(5)

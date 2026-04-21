@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WSB Dashboard — Palette Preview</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #111; color: #fff; padding: 30px; }
+  h1 { text-align: center; color: #E2007A; margin-bottom: 8px; font-size: 22px; }
+  .subtitle { text-align: center; color: #aaa; margin-bottom: 36px; font-size: 13px; }
+
+  .options { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+  .option { flex: 1; min-width: 320px; max-width: 440px; border-radius: 14px; overflow: hidden; border: 2px solid #333; }
+  .option-label { text-align: center; padding: 12px; font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+
+  /* ---- OPTION A: WSB Dark Pro ---- */
+  .a { border-color: #E2007A; }
+  .a .option-label { background: #E2007A; color: #fff; }
+  .a .dash { background: #0D0D1A; padding: 16px; }
+  .a .sidebar { background: #1C0A12; padding: 12px; border-radius: 8px; margin-bottom: 12px; }
+  .a .wsb-btn { background: #E2007A; color: #fff; border-radius: 6px; padding: 8px 14px; font-weight: 700; font-size: 13px; display: inline-block; margin-bottom: 6px; }
+  .a .sidebar-sub { color: #aaa; font-size: 11px; margin-bottom: 10px; }
+  .a .nav-item { color: #ccc; font-size: 12px; padding: 4px 0; }
+  .a .nav-item.active { color: #E2007A; font-weight: 700; }
+  .a .banner { background: #E2007A; border-radius: 8px; padding: 14px; margin-bottom: 12px; font-size: 12px; color: #fff; }
+  .a .cards { display: flex; gap: 8px; margin-bottom: 12px; }
+  .a .card { flex: 1; background: #1C1C2E; border-radius: 8px; padding: 12px; border-left: 3px solid #E2007A; }
+  .a .card-title { color: #fff; font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+  .a .card-sub { color: #FF6B9D; font-size: 10px; }
+  .a .card.orange { border-left-color: #FF8C42; }
+  .a .card.orange .card-sub { color: #FF8C42; }
+  .a .card.green { border-left-color: #4ADE80; }
+  .a .card.green .card-sub { color: #4ADE80; }
+  .a .metrics { display: flex; gap: 8px; margin-bottom: 12px; }
+  .a .metric { flex: 1; background: #1C1C2E; border-radius: 8px; padding: 10px; text-align: center; }
+  .a .metric-label { color: #FF6B9D; font-size: 9px; margin-bottom: 4px; }
+  .a .metric-val { color: #fff; font-size: 18px; font-weight: 700; }
+  .a .findings { display: flex; gap: 8px; }
+  .a .finding { flex: 1; background: #1C1C2E; border-radius: 8px; padding: 10px; border-top: 2px solid #E2007A; }
+  .a .finding.b2 { border-top-color: #FF8C42; }
+  .a .finding.b3 { border-top-color: #4ADE80; }
+  .a .finding-title { color: #E2007A; font-size: 9px; font-weight: 700; margin-bottom: 4px; }
+  .a .finding.b2 .finding-title { color: #FF8C42; }
+  .a .finding.b3 .finding-title { color: #4ADE80; }
+  .a .finding-text { color: #ccc; font-size: 9px; line-height: 1.4; }
+
+  /* ---- OPTION B: Charcoal & Rose ---- */
+  .b { border-color: #FF6B6B; }
+  .b .option-label { background: #3A1A1A; color: #FF6B6B; }
+  .b .dash { background: #1A1A1A; padding: 16px; }
+  .b .sidebar { background: #2A1010; padding: 12px; border-radius: 8px; margin-bottom: 12px; }
+  .b .wsb-btn { background: #E2007A; color: #fff; border-radius: 6px; padding: 8px 14px; font-weight: 700; font-size: 13px; display: inline-block; margin-bottom: 6px; }
+  .b .sidebar-sub { color: #aaa; font-size: 11px; margin-bottom: 10px; }
+  .b .nav-item { color: #ccc; font-size: 12px; padding: 4px 0; }
+  .b .nav-item.active { color: #E2007A; font-weight: 700; }
+  .b .banner { background: linear-gradient(135deg, #E2007A, #FF8C69); border-radius: 8px; padding: 14px; margin-bottom: 12px; font-size: 12px; color: #fff; }
+  .b .cards { display: flex; gap: 8px; margin-bottom: 12px; }
+  .b .card { flex: 1; background: #2A2020; border-radius: 8px; padding: 12px; border-left: 3px solid #E2007A; }
+  .b .card-title { color: #fff; font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+  .b .card-sub { color: #FF8C69; font-size: 10px; }
+  .b .card.orange { border-left-color: #FF8C42; background: #2A2015; }
+  .b .card.orange .card-sub { color: #FFB347; }
+  .b .card.green { border-left-color: #56CFB2; background: #0F2520; }
+  .b .card.green .card-sub { color: #56CFB2; }
+  .b .metrics { display: flex; gap: 8px; margin-bottom: 12px; }
+  .b .metric { flex: 1; background: #2A2020; border-radius: 8px; padding: 10px; text-align: center; }
+  .b .metric-label { color: #FF8C69; font-size: 9px; margin-bottom: 4px; }
+  .b .metric-val { color: #fff; font-size: 18px; font-weight: 700; }
+  .b .findings { display: flex; gap: 8px; }
+  .b .finding { flex: 1; background: #2A2020; border-radius: 8px; padding: 10px; border-top: 2px solid #E2007A; }
+  .b .finding.b2 { border-top-color: #FF8C42; background: #2A2015; }
+  .b .finding.b3 { border-top-color: #56CFB2; background: #0F2520; }
+  .b .finding-title { color: #E2007A; font-size: 9px; font-weight: 700; margin-bottom: 4px; }
+  .b .finding.b2 .finding-title { color: #FFB347; }
+  .b .finding.b3 .finding-title { color: #56CFB2; }
+  .b .finding-text { color: #ddd; font-size: 9px; line-height: 1.4; }
+
+  /* ---- OPTION C: WSB Midnight ---- */
+  .c { border-color: #C084FC; }
+  .c .option-label { background: #12001A; color: #C084FC; }
+  .c .dash { background: #12001A; padding: 16px; }
+  .c .sidebar { background: #1E0A2A; padding: 12px; border-radius: 8px; margin-bottom: 12px; }
+  .c .wsb-btn { background: #E2007A; color: #fff; border-radius: 6px; padding: 8px 14px; font-weight: 700; font-size: 13px; display: inline-block; margin-bottom: 6px; }
+  .c .sidebar-sub { color: #bbb; font-size: 11px; margin-bottom: 10px; }
+  .c .nav-item { color: #ddd; font-size: 12px; padding: 4px 0; }
+  .c .nav-item.active { color: #E2007A; font-weight: 700; }
+  .c .banner { background: linear-gradient(135deg, #E2007A, #7C3AED); border-radius: 8px; padding: 14px; margin-bottom: 12px; font-size: 12px; color: #fff; }
+  .c .cards { display: flex; gap: 8px; margin-bottom: 12px; }
+  .c .card { flex: 1; background: #1E0A2A; border-radius: 8px; padding: 12px; border-left: 3px solid #E2007A; }
+  .c .card-title { color: #fff; font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+  .c .card-sub { color: #FF6B9D; font-size: 10px; }
+  .c .card.orange { border-left-color: #FF8C42; background: #1E1208; }
+  .c .card.orange .card-sub { color: #FF8C42; }
+  .c .card.green { border-left-color: #C084FC; background: #1A0A28; }
+  .c .card.green .card-sub { color: #C084FC; }
+  .c .metrics { display: flex; gap: 8px; margin-bottom: 12px; }
+  .c .metric { flex: 1; background: #1E0A2A; border-radius: 8px; padding: 10px; text-align: center; }
+  .c .metric-label { color: #C084FC; font-size: 9px; margin-bottom: 4px; }
+  .c .metric-val { color: #fff; font-size: 18px; font-weight: 700; }
+  .c .findings { display: flex; gap: 8px; }
+  .c .finding { flex: 1; background: #1E0A2A; border-radius: 8px; padding: 10px; border-top: 2px solid #E2007A; }
+  .c .finding.b2 { border-top-color: #FF8C42; background: #1E1208; }
+  .c .finding.b3 { border-top-color: #C084FC; }
+  .c .finding-title { color: #FF6B9D; font-size: 9px; font-weight: 700; margin-bottom: 4px; }
+  .c .finding.b2 .finding-title { color: #FF8C42; }
+  .c .finding.b3 .finding-title { color: #C084FC; }
+  .c .finding-text { color: #ddd; font-size: 9px; line-height: 1.4; }
+
+  .swatch-row { display: flex; gap: 6px; margin-top: 10px; }
+  .swatch { height: 18px; border-radius: 4px; flex: 1; display: flex; align-items: center; justify-content: center; font-size: 8px; color: #fff; text-shadow: 0 0 3px #000; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1>WSB Dashboard — Palette Preview</h1>
+<p class="subtitle">Compare all 3 colour options before applying. Choose what you like best.</p>
+
+<div class="options">
+
+  <!-- OPTION A -->
+  <div class="option a">
+    <div class="option-label">A — WSB Dark Pro</div>
+    <div class="dash">
+      <div class="sidebar">
+        <div class="wsb-btn">WSB University</div>
+        <div class="sidebar-sub">Akademia WSB · Dabrowa Gornicza</div>
+        <div class="nav-item active">● Home</div>
+        <div class="nav-item">○ Social Media &amp; Stock Markets</div>
+        <div class="nav-item">○ Movie Insights &amp; Sentiment</div>
+        <div class="nav-item">○ Academic Publication Trends</div>
+      </div>
+      <div class="banner">Semester 4 · MSc Data Scientist · WSB University Dabrowa Gornicza</div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">Integration 1</div>
+          <div class="card-sub">Percival + Shamil</div>
+        </div>
+        <div class="card orange">
+          <div class="card-title">Integration 2</div>
+          <div class="card-sub">Peris + Nihat</div>
+        </div>
+        <div class="card green">
+          <div class="card-title">Standalone</div>
+          <div class="card-sub">Christian / Shamil</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Reddit Posts</div><div class="metric-val">277</div></div>
+        <div class="metric"><div class="metric-label">Stock Records</div><div class="metric-val">840</div></div>
+        <div class="metric"><div class="metric-label">Movie Ratings</div><div class="metric-val">100K</div></div>
+      </div>
+      <div class="findings">
+        <div class="finding"><div class="finding-title">Only Growing Field</div><div class="finding-text">Renewable Energy +1.41 papers/year</div></div>
+        <div class="finding b2"><div class="finding-title">Peak Engagement</div><div class="finding-text">AMZN 2025-W17 score 43,237</div></div>
+        <div class="finding b3"><div class="finding-title">Fastest Declining</div><div class="finding-text">Neuroscience −0.68/year</div></div>
+      </div>
+      <div class="swatch-row">
+        <div class="swatch" style="background:#0D0D1A">#0D0D1A</div>
+        <div class="swatch" style="background:#1C1C2E">#1C1C2E</div>
+        <div class="swatch" style="background:#E2007A">#E2007A</div>
+        <div class="swatch" style="background:#FF6B9D">#FF6B9D</div>
+        <div class="swatch" style="background:#4ADE80; color:#000">#4ADE80</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION B -->
+  <div class="option b">
+    <div class="option-label">B — Charcoal &amp; Rose</div>
+    <div class="dash">
+      <div class="sidebar">
+        <div class="wsb-btn">WSB University</div>
+        <div class="sidebar-sub">Akademia WSB · Dabrowa Gornicza</div>
+        <div class="nav-item active">● Home</div>
+        <div class="nav-item">○ Social Media &amp; Stock Markets</div>
+        <div class="nav-item">○ Movie Insights &amp; Sentiment</div>
+        <div class="nav-item">○ Academic Publication Trends</div>
+      </div>
+      <div class="banner">Semester 4 · MSc Data Scientist · WSB University Dabrowa Gornicza</div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">Integration 1</div>
+          <div class="card-sub">Percival + Shamil</div>
+        </div>
+        <div class="card orange">
+          <div class="card-title">Integration 2</div>
+          <div class="card-sub">Peris + Nihat</div>
+        </div>
+        <div class="card green">
+          <div class="card-title">Standalone</div>
+          <div class="card-sub">Christian / Shamil</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Reddit Posts</div><div class="metric-val">277</div></div>
+        <div class="metric"><div class="metric-label">Stock Records</div><div class="metric-val">840</div></div>
+        <div class="metric"><div class="metric-label">Movie Ratings</div><div class="metric-val">100K</div></div>
+      </div>
+      <div class="findings">
+        <div class="finding"><div class="finding-title">Only Growing Field</div><div class="finding-text">Renewable Energy +1.41 papers/year</div></div>
+        <div class="finding b2"><div class="finding-title">Peak Engagement</div><div class="finding-text">AMZN 2025-W17 score 43,237</div></div>
+        <div class="finding b3"><div class="finding-title">Fastest Declining</div><div class="finding-text">Neuroscience −0.68/year</div></div>
+      </div>
+      <div class="swatch-row">
+        <div class="swatch" style="background:#1A1A1A">#1A1A1A</div>
+        <div class="swatch" style="background:#2A2020">#2A2020</div>
+        <div class="swatch" style="background:#E2007A">#E2007A</div>
+        <div class="swatch" style="background:#FF8C69">#FF8C69</div>
+        <div class="swatch" style="background:#56CFB2; color:#000">#56CFB2</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION C -->
+  <div class="option c">
+    <div class="option-label">C — WSB Midnight</div>
+    <div class="dash">
+      <div class="sidebar">
+        <div class="wsb-btn">WSB University</div>
+        <div class="sidebar-sub">Akademia WSB · Dabrowa Gornicza</div>
+        <div class="nav-item active">● Home</div>
+        <div class="nav-item">○ Social Media &amp; Stock Markets</div>
+        <div class="nav-item">○ Movie Insights &amp; Sentiment</div>
+        <div class="nav-item">○ Academic Publication Trends</div>
+      </div>
+      <div class="banner">Semester 4 · MSc Data Scientist · WSB University Dabrowa Gornicza</div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">Integration 1</div>
+          <div class="card-sub">Percival + Shamil</div>
+        </div>
+        <div class="card orange">
+          <div class="card-title">Integration 2</div>
+          <div class="card-sub">Peris + Nihat</div>
+        </div>
+        <div class="card green">
+          <div class="card-title">Standalone</div>
+          <div class="card-sub">Christian / Shamil</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Reddit Posts</div><div class="metric-val">277</div></div>
+        <div class="metric"><div class="metric-label">Stock Records</div><div class="metric-val">840</div></div>
+        <div class="metric"><div class="metric-label">Movie Ratings</div><div class="metric-val">100K</div></div>
+      </div>
+      <div class="findings">
+        <div class="finding"><div class="finding-title">Only Growing Field</div><div class="finding-text">Renewable Energy +1.41 papers/year</div></div>
+        <div class="finding b2"><div class="finding-title">Peak Engagement</div><div class="finding-text">AMZN 2025-W17 score 43,237</div></div>
+        <div class="finding b3"><div class="finding-title">Fastest Declining</div><div class="finding-text">Neuroscience −0.68/year</div></div>
+      </div>
+      <div class="swatch-row">
+        <div class="swatch" style="background:#12001A">#12001A</div>
+        <div class="swatch" style="background:#1E0A2A">#1E0A2A</div>
+        <div class="swatch" style="background:#E2007A">#E2007A</div>
+        <div class="swatch" style="background:#FF6B9D">#FF6B9D</div>
+        <div class="swatch" style="background:#C084FC">#C084FC</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p style="text-align:center; color:#666; margin-top:30px; font-size:12px;">Tell Claude which option (A, B, or C) you prefer — or mix elements from multiple options.</p>
+
+</body>
+</html>
